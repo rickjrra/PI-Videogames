@@ -46,7 +46,4 @@ videogamesRouter.post('/', validatePostData, async (req, res) => {
     }
 });
 
-
-
-
 module.exports=videogamesRouter;
