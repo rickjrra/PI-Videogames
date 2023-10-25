@@ -46,7 +46,7 @@ const Filter = ({ handleChangeByName, handleChangeByRating, handleChangeCreation
       </div>
 
       <div className={style.names}>
-        <label htmlFor="orderByName" className={style.label}>ORDER POR NOMBRE
+        <label htmlFor="orderByName" className={style.label}>ORDENAR POR NOMBRE
         <select name="orderByName" id="orderByName" onChange={event => handleChangeByName(event)} className={style.select}>
           <option value="" disabled hidden selected>ALFABETICO</option>
           <option value="ASC" className={style.option}>A-Z</option>
